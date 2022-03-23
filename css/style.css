@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'bignoodletitling';
+    src: url('../media/font/big_noodle_titling.ttf');
+}
+
+html {
+    background-color: rgb(37, 37, 37);
+}
+
+nav {
+    background-color: rgb(37, 37, 37);
+    height: 8rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav button {
+    cursor: pointer;
+    margin: auto 0.75em;
+    font-family: bignoodletitling;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 2em;
+    height: 3rem;
+}
+
+nav img {
+    cursor: pointer;
+    height: 5vh;
+    margin: auto auto auto 2em;
+}
+
+nav button:hover {
+    border-bottom: 4px solid white;
+}
+
+#intro-fpage {
+    width: 100%;
+    height: 65vh;
+}
+
+.wrapper h2{
+    position: absolute;
+    font-family: bignoodletitling;
+    color: #fff;
+    font-size: 8.5rem;
+    top: 25%;
+    left: 3%;
+}
+
+.wrapper p {
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 2rem;
+    top: 45%;
+    left: 3%;
+    max-width: 45%;
+    line-height: 40px;
+}
+
+.wrapper img {
+    position: absolute;
+    right: 0;
+    margin: 5em 2em 0 0;
+    border-radius: 15px;
+}
+
+span::before {
+    font-size: 11.5rem;
+    color: goldenrod;
+    content: '';
+    animation: animate infinite 8s;
+}
+
+#who-fpage::before {
+    content: '';
+    display: block;
+    background-color: rgb(92, 92, 92);
+    width: 100%;
+    height: 3px;
+    margin-bottom: 5rem;
+}
+
+#who-fpage {
+    width: 100%;
+    height: 65vh;
+}
+
+#who-fpage img {
+    position: absolute;
+    margin: 0 0 0 2em;
+    border-radius: 15px;   
+}
+
+#who-fpage h2 {
+    font-family: bignoodletitling;
+    color: #fff;
+    font-size: 8.5rem;
+    margin: 0 0 0 50%;
+}
+
+#who-fpage p {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    margin: 3% 0 0 50%;
+    max-width: 45%;
+}
+
+#cities-fpage::before {
+    content: '';
+    display: block;
+    background-color: rgb(92, 92, 92);
+    width: 100%;
+    height: 3px;
+    margin-bottom: 5rem;
+}
+
+#cities-fpage {
+    width: 100%;
+    height: 65vh;
+}
+
+#cities-fpage img {
+    position: absolute;
+    right: 0;
+    top: 145%;
+    margin: 5rem 3em 0 0;
+    border-radius: 15px;
+}
+
+#cities-fpage h2 {
+    display: inline;
+    font-family: bignoodletitling;
+    color: #fff;
+    font-size: 8.5rem;
+    margin: 0 0 0 3%;
+}
+
+#cities-fpage p {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    margin: 3% 0 0 3%;
+    width: 45%;
+    max-width: 45%;
+}
+
+footer {
+    width: 100%;
+    height: 25vh;
+    background-image: url(../media/img/backfooter.png);
+    background-repeat: repeat;
+    display: flex;
+}
+
+footer img {
+    margin: auto auto;
+    height: 150px;
+}
+
+@keyframes animate {
+    0% {
+        content: 'Labs';
+    }
+    20% {
+        content: 'Gelada';
+    }
+    40% {
+        content: 'Comunidade';
+    }
+    60% {
+        content: 'DEV';
+    }
+    80% {
+        content: 'Zap';
+    }
+    100% {
+        content: 'Tudo';
+    }
+}
