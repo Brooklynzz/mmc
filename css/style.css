@@ -182,3 +182,22 @@ footer img {
         content: 'Tudo';
     }
 }
+
+@media screen and (width: 2560px) {
+    nav {
+        font-size: 1.5rem;
+    }
+    #cities-fpage img {
+        width: 1000px;
+        margin: 5rem 5em 0 0;
+    }
+    #who-fpage img  {
+        width: 1000px;
+        margin: 0 0 0 5em;
+    }
+    .wrapper img {
+        margin: 10em 5em 0 0;
+        width: 1000px;
+        border-radius: 15px;
+    }
+}
